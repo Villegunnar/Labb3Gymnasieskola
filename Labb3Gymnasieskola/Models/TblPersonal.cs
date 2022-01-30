@@ -20,5 +20,7 @@ namespace Labb3Gymnasieskola.Models
         public string Befattning { get; set; }
 
         public virtual ICollection<TblKurs> TblKurs { get; set; }
+
+
     }
 }
